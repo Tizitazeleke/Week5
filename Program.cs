@@ -11,10 +11,50 @@ namespace Week5
     {//Start class
         static void Main(string[] args)
         {//start main
+            Console.WriteLine("Number1");
+            Number1();
+            Console.WriteLine("Number2");
+
+            Number2();
+
+            Console.WriteLine("Number3");
             Number3();
             Console.ReadLine();
 
         }//end main
+
+        static void Number1 () 
+        {
+            int count1 = 0;
+            while (count1 <5)
+                
+            {
+                Console.WriteLine(count1);
+                count1++;
+
+            }
+            
+        }
+
+        static void Number2()
+        {
+
+
+            int count2 = 0;
+            while (count2<10)
+            {
+                if(count2 % 2 != 0)
+                {
+                    Console.WriteLine(count2);
+                    
+
+                }
+              
+                count2++;
+            }
+        }
+
+
         static void Number3()
         {
             //first we need to get number from user 
